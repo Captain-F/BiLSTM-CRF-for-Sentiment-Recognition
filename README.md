@@ -11,7 +11,7 @@ So the shape of sentence is (50, 100) <br>
 #### Label:
 Unlike the accepted labels form of keras and pytorch, the dimension of labels in Bilstm-crf is 3 and the labels are in a form of [[[0]],[[1]],...], which confuses me for a litle time. 
 ###### Example:
-In keras(Bilstm), we get 2 texts, whose labels are postive and negtive. (we use 0 as the label of positive and 1 as the label of negtive)
+In keras(Bilstm), we get 2 texts, whose labels are postive and negtive. (we use 0 as the label of positive and 1 as the label of negtive) <br>
 Their form: [[1,0,0],[0,1,0]] <br>
 In Bilstm-crf(keras) <br>
 Their form: [[[0]],[[1]]] <br>
@@ -23,7 +23,7 @@ Classification report, containing P, R, F metrics.<br>
 ### Language:
 Python >= 3.6 <br>
 
-### Denpendent libraries:
+### Dependent libraries:
 scikit-learn >= 0.20.0 <br>
 keras >= 2.2.4 <br>
 keras-contrib >= 2.0.8 <br>
