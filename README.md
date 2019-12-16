@@ -1,10 +1,10 @@
 # BiLSTM-CRF-for-Sentiment-Recognition
-Employing BiLSTM-CRF model to classify the sentiment of texts. 
-The sentiments of texts are positvie, neutral and negative.
+##Employing BiLSTM-CRF model to classify the sentiment of texts. 
+###The sentiments of texts are positvie, neutral and negative.
 
-Here, I dont't describe the theory of BiLSTM-crf because there is too much resource on the Internet. So just go stright to the goal.
+###Here, I dont't describe the theory of BiLSTM-crf because there is too much resource on the Internet. So just go stright to the goal.
 
-Goal: Classifying the sentiments of texts into positvie, neutral and negative.
+###Goal: Classifying the sentiments of texts into positvie, neutral and negative.
 
 Input:
 word representation: Using the word2vec to represent the words. The dimension of vectors is 100. The length of sentence is 50. If the length of texts is beyond 50, we cut it off. Otherwise, we use zero padding strategy.
